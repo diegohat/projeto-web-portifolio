@@ -1,0 +1,178 @@
+/* --------------------------------TAGS---------------------------------- */
+
+* {
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+    margin: 0;
+    background-color: #DDDDDD;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px;
+    width: auto;
+    background-color: black;
+    background: no-repeat url(/images/nav-bg.jpg);
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+nav {
+    margin-top: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 80%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color:grey;
+}
+
+footer h3 {
+    font-size: small;
+    margin: 0;
+    padding: 10px;
+    color: white;
+    text-shadow: 0 1px black;
+}
+
+a:link,
+a:visited {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-style: solid;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,
+a:active {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-style: solid;
+}
+
+h1 {
+    color: white;
+}
+
+input[type="text"],
+textarea {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.7;
+}
+
+/* --------------------------------CLASSES---------------------------------- */
+
+.dev-img {
+    margin: 10px;
+    width: 400px;
+    height: auto;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.dev-img-text {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* --------------------------------ID's---------------------------------- */
+
+#desktop-img {
+    background: url(/images/desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#mobile-img {
+    background: url(/images/mobile.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#web-img {
+    background: url(/images/web.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#search-bar {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#dev {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    border-radius: 5px;
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+}
+
+#sobre div {
+    margin: 20px 20px 10px 20px;
+    background-color: #DDDDDD;
+    border-bottom: 2px solid;
+    border-color: #909090;
+}
+
+#sobre div h2,
+#sobre div p {
+    margin: 20px;
+}
