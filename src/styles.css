@@ -16,7 +16,7 @@ header {
     min-height: 400px;
     width: auto;
     background-color: black;
-    background: no-repeat url(/images/nav-bg.jpg);
+    background: no-repeat url('../images/nav-bg.jpg');
     background-size: cover;
     margin-bottom: 20px;
 }
@@ -122,19 +122,19 @@ textarea {
 /* --------------------------------ID's---------------------------------- */
 
 #desktop-img {
-    background: url(/images/desktop.jpg);
+    background: url('../images/desktop.jpg');
     background-size: cover;
     background-position: center;
 }
 
 #mobile-img {
-    background: url(/images/mobile.jpg);
+    background: url('../images/mobile.jpg');
     background-size: cover;
     background-position: center;
 }
 
 #web-img {
-    background: url(/images/web.jpg);
+    background: url('../images/web.jpg');
     background-size: cover;
     background-position: center;
 }
