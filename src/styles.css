@@ -49,7 +49,7 @@ section {
 
 footer {
     text-align: center;
-    background-color:grey;
+    background-color: grey;
 }
 
 footer h3 {
@@ -125,18 +125,36 @@ textarea {
     background: url('../images/desktop.jpg');
     background-size: cover;
     background-position: center;
+    transition: 200ms ease-in-out;
+}
+
+#desktop-img:hover {
+    margin-bottom: -10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
 }
 
 #mobile-img {
     background: url('../images/mobile.jpg');
     background-size: cover;
     background-position: center;
+    transition: 200ms ease-in-out;
+}
+
+#mobile-img:hover {
+    margin-bottom: -10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
 }
 
 #web-img {
     background: url('../images/web.jpg');
     background-size: cover;
     background-position: center;
+    transition: 200ms ease-in-out;
+}
+
+#web-img:hover {
+    margin-bottom: -10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
 }
 
 #headline {
